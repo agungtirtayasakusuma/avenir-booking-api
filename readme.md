@@ -1,14 +1,29 @@
 # Avenir Booking API
 
-FastAPI + PostgreSQL Backend Project
+Backend API sederhana untuk simulasi sistem booking tour menggunakan FastAPI dan PostgreSQL.
 
-Features:
-- GET Booking
-- POST Booking
-- PUT Booking
-- DELETE Booking
+## Features
 
-Tech Stack:
-- FastAPI
-- PostgreSQL
-- Psycopg2
+* GET Booking
+* POST Booking
+* PUT Booking
+* DELETE Booking
+* PostgreSQL Integration
+* Swagger Documentation
+
+## Tech Stack
+
+* Python
+* FastAPI
+* PostgreSQL
+* Psycopg2
+
+## Run Local
+
+```bash
+uvicorn main:app --reload
+```
+
+## Author
+
+Agung Tirtayasa Kusuma
